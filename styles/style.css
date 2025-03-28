@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image: url("../images/transparencia.png");
+    background-size: cover; 
+    background-position: center;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    transition: text-shadow 1s ease;
+}
+
+h1 a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 4px #ffffff, 0 0 6px #ffffff;
+    transition: text-shadow 0.3s ease;
+}
+
+nav {
+    background-color: #333;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #747474;
+}
+
+
+nav ul li a {
+font-weight: bold;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.coche-caja {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(20% - 20px);
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.coche-caja:hover {
+    transform: translateY(-10px);
+    background-color: #fdfbfb;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.coche-imagen {
+    background-color: #eee;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+.car-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    padding: 15px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
